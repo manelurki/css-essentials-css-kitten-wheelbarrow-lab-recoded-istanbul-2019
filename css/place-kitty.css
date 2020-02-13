@@ -1,23 +1,46 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@manelurki 
+manelurki
+/
+css-essentials-css-kitten-wheelbarrow-lab-recoded-istanbul-2019
+forked from learn-co-students/css-essentials-css-kitten-wheelbarrow-lab-recoded-istanbul-2019
+0
+022
+ Code Pull requests 0 Actions Projects 0 Security Insights Settings
+css-essentials-css-kitten-wheelbarrow-lab-recoded-istanbul-2019/css/place-kitty.css
+@maxwellbenton maxwellbenton adds solution
+bef5bf4 on 23 May 2019
+@jongrover@maxwellbenton
+46 lines (36 sloc)  907 Bytes
+  
 /* Select the image with a class of kitty-1 */
 
-img .kitty-1{
+.kitty-1 {
   position: absolute;
   z-index: 1;
   top: 276px;
   left: 129px;
 }
 
+/* Select the image with id of kitty-2 */
 
-#kitty-2{
+#kitty-2 {
   position: absolute;
   z-index: 2;
   top: 212px;
   left: 369px;
 }
 
+/* Select the image inside the element with an id of basket (using its descendent relationship) */
 
-
-img basket{
+#basket img {
   position: absolute;
   z-index: 5;
   top: 291px;
@@ -33,11 +56,12 @@ img basket{
   left: 455px;
 }
 
-/* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
 
-img [kitty-5]{
+
+img[alt="Kitty 5"] {
   position: absolute;
   z-index: 3;
   top: 217px;
   left: 223px;
 }
+
